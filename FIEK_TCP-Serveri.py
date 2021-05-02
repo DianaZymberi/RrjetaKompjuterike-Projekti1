@@ -85,6 +85,7 @@ def KONVERTO(konverto,number):
         result = number*1.609
     rezultati = str("%.2f" % result)
     connection.send(rezultati.encode("utf-8"))
+        #8MAGIC_BALL
 def MAGIC():
     answers = random.randint(1,8)
     if answers == 1:
